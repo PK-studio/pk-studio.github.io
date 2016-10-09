@@ -117,7 +117,7 @@ $(function() {
 	});
 
 	
-// NAVBAR CHANGE FORM
+// NAVBAR - CHANGE FORM
 $(document).ready(function(){
 	var changenavigation = $('#section1').offset().top + 100;
 	
@@ -133,8 +133,15 @@ $(document).ready(function(){
 	});	
 });
 
-// HEADER - CHANGE COLOR BACKGROUND PARALEX & MARGIN TEXT
+// NAVBAR - CLOSE AFTER CLICK
 $(document).ready(function(){
+	$('.navbar a').click(function(){
+		$('.navbar-collapse').collapse('hide');
+	});
+});	
+
+// HEADER - CHANGE COLOR BACKGROUND PARALEX & MARGIN TEXT
+/*$(document).ready(function(){
 	var header = $('#section1');
 	var content = $('.container-s1');
 	var background = header.css('background');
@@ -167,7 +174,7 @@ $(document).ready(function(){
 		//header.css({ 'background': 'rgba(255, 255, 255, ' + calc + ') none repeat scroll 0% 0% / auto padding-box border-box' });
 	});
 });
-
+*/
 
 // 'TIMELINE' - CHANGE ICON ON
 $(document).ready(function(){
