@@ -534,12 +534,8 @@
 
 /* SECTION 8 ////////////////////////////////////////////////////////////////////////////////// SECTION 8 */
 .section8 {
-    background: url(../img/footer.jpg) no-repeat;
+    background: url(../img/footer.jpg) no-repeat center center fixed;
     background-attachment: fixed;
-    -webkit-background-size: 50% 50%; 
-    -moz-background-size: 50% 50%; 
-    -o-background-size: 50% 50%; 
-    background-size: 50% 50%;
 	-webkit-background-size: cover; 
     -moz-background-size: cover; 
     -o-background-size: cover; 
