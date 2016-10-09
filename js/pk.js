@@ -117,7 +117,7 @@ $(function() {
 	});
 
 	
-// NAVBAR CHANGE FORM
+// NAVBAR - CHANGE FORM
 $(document).ready(function(){
 	var changenavigation = $('#section1').offset().top + 100;
 	
@@ -132,6 +132,13 @@ $(document).ready(function(){
 
 	});	
 });
+
+// NAVBAR - CLOSE AFTER CLICK
+$(document).ready(function(){
+	$('.navbar a').click(function(){
+		$('.navbar-collapse').collapse('hide');
+	});
+});	
 
 // HEADER - CHANGE COLOR BACKGROUND PARALEX & MARGIN TEXT
 $(document).ready(function(){
@@ -158,13 +165,13 @@ $(document).ready(function(){
 		content.css({ 'margin-top': '' + calc2 + 'px'});
 
 		// change color - good way
-		var newColor = 'rgba(255,255,255,' + calc + ')';
-		var newBackground = background.replace(pattern, newColor);
-		console.log(newBackground); 
-		header.css({ 'background': newBackground });
+		//var newColor = 'rgba(255,255,255,' + calc + ')';
+		//var newBackground = background.replace(pattern, newColor);
+		//console.log(newBackground); 
+		//header.css({ 'background': newBackground });
 		
 		// change color - quick way
-		//header.css({ 'background': 'rgba(255, 255, 255, ' + calc + ') none repeat scroll 0% 0% / auto padding-box border-box' });
+		header.css({ 'background': 'rgba(255, 255, 255, ' + calc + ') none repeat scroll 0% 0% / auto padding-box border-box' });
 	});
 });
 

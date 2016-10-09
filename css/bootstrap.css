@@ -4217,14 +4217,19 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-bottom: 0px !important;
 }
 .navbar-default   .container  .navbar-header{
-  padding-bottom: 20px;
+    padding-bottom: 10px;
 }
+@media (min-width: 768px) {
+  .navbar-default   .container  .navbar-header{
+    padding-bottom: 20px;
+  }
+}  
 .container > .navbar-header,
 .container-fluid > .navbar-header,
 .container > .navbar-collapse,
 .container-fluid > .navbar-collapse {
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 @media (min-width: 790px) {
   .container > .navbar-header,
@@ -4296,15 +4301,30 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   font-family: 'Courgette', cursive;
   float: left;
-  font-size: 50px;
-  line-height: 50px;
+  font-size: 36px;
+  line-height: 40px;
   padding-left: 15px;
+  padding-top: 8px;
     -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
     -ms-transition: all 0.6s;
     -o-transition: all 0.6s;
     transition: all 0.6s;
 }
+@media (min-width: 768px) {  
+  .navbar-brand {
+    font-family: 'Courgette', cursive;
+    float: left;
+    font-size: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+      -webkit-transition: all 0.6s;
+      -moz-transition: all 0.6s;
+      -ms-transition: all 0.6s;
+      -o-transition: all 0.6s;
+      transition: all 0.6s;
+  }
+}  
 .navbar-inverse .navbar-brand {
   float: left;
   padding-top: 10px;
@@ -4533,14 +4553,27 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default {
   background: #000;
-  font-size: 24px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
  -webkit-transition: all 0.4s  ease-out 0s;
     -moz-transition: all 0.4s ease-out 0s;
     -ms-transition: all 0.4s ease-out 0s;
     -o-transition: all 0.4s ease-out 0s;
     transition: all 0.4s ease-out 0s;
+}
+@media (min-width: 768px) {
+  .navbar-default {
+    background: #000;
+    font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  -webkit-transition: all 0.4s  ease-out 0s;
+      -moz-transition: all 0.4s ease-out 0s;
+      -ms-transition: all 0.4s ease-out 0s;
+      -o-transition: all 0.4s ease-out 0s;
+      transition: all 0.4s ease-out 0s;
+  }
 }
 .navbar-default .navbar-brand {
   color: #FFF;
