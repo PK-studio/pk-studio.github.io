@@ -534,9 +534,16 @@
 
 /* SECTION 8 ////////////////////////////////////////////////////////////////////////////////// SECTION 8 */
 .section8 {
-    background: url(../img/footer.jpg) 50% 50% no-repeat;
+    background: url(../img/footer.jpg) no-repeat;
     background-attachment: fixed;
-	background-size: cover;
+    -webkit-background-size: 50% 50%; 
+    -moz-background-size: 50% 50%; 
+    -o-background-size: 50% 50%; 
+    background-size: 50% 50%;
+	-webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
     text-align: center;
 }
 .contact {
