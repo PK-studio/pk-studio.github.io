@@ -534,10 +534,9 @@
 
 /* SECTION 8 ////////////////////////////////////////////////////////////////////////////////// SECTION 8 */
 .contact {
-    background-image: url(../img/footer.jpg);
+    background: url(../img/footer.jpg) no-repeat;
 	height: 360px;
     background-position: 50% 50%;
-    background-repeat: no-repeat;
     background-attachment: fixed;
 	background-size: cover;
     text-align: center;
