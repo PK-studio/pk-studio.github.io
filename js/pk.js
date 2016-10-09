@@ -165,11 +165,12 @@ $(document).ready(function(){
 		content.css({ 'margin-top': '' + calc2 + 'px'});
 
 		// change color - good way
-		var newColor = 'rgba(255,255,255,' + calc + ')';
-		var newBackground = background.replace(pattern, newColor);
-		console.log(newBackground); 
-		header.css({ 'background': newBackground });
-		
+		if(window.innerWidth > 767){
+			var newColor = 'rgba(255,255,255,' + calc + ')';
+			var newBackground = background.replace(pattern, newColor);
+			console.log(newBackground); 
+			header.css({ 'background': newBackground });
+		}
 		// change color - quick way
 		//header.css({ 'background': 'rgba(255, 255, 255, ' + calc + ') none repeat scroll 0% 0% / auto padding-box border-box' });
 	});
