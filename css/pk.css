@@ -470,7 +470,7 @@
 
 /* SECTION 6 ////////////////////////////////////////////////////////////////////////////////// SECTION 6 */
 .bg-quotation {
-	background-image: url(../img/bg2.jpg);
+	background-image: url(../img/bg2mini.jpg);
 	height: 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -480,6 +480,11 @@
     -moz-background-size: cover; 
     -o-background-size: cover; 
 }
+@media (min-width: 767px) {
+    .bg-quotation {
+        background-image: url(../img/bg2.jpg);
+    }
+} 
 .bg-quotation-cover {
 	background-color:  rgba(0, 0, 0, 0.2);
 	margin: auto;
@@ -545,9 +550,9 @@
     text-align: center;
 }
 .contact {
-    background-image: url(../img/footer.jpg);
+    background-image: url(../img/footermini.jpg);
     height: 360px;
-    background-position: 0 0;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -555,6 +560,11 @@
     -moz-background-size: cover;
     -o-background-size: cover;
 }
+@media (min-width: 767px) {
+    .contact {
+        background-image: url(../img/footer.jpg);
+    }
+} 
 .contact h1 {
     padding-top: 60px;
     color: #fff;
