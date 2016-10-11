@@ -475,6 +475,9 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 	background-size: cover;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
 }
 
 .bg-quotation-cover {
@@ -535,7 +538,7 @@
 /* SECTION 8 ////////////////////////////////////////////////////////////////////////////////// SECTION 8 */
 .section8 {
     background: url(../img/footer.jpg);
-    height: 360px;
+    height: 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
