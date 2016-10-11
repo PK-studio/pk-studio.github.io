@@ -535,7 +535,7 @@
 /* SECTION 8 ////////////////////////////////////////////////////////////////////////////////// SECTION 8 */
 .section8 {
     background: url(../img/footer.jpg);
-
+    width: 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
