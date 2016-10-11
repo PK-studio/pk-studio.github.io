@@ -542,15 +542,15 @@
 
 /* SECTION 8 ////////////////////////////////////////////////////////////////////////////////// SECTION 8 */
 .section8 {
+	height: 360px;
+    text-align: center;
+}
+.contact {
     background: url(../img/footer.jpg) no-repeat center center fixed;
     -webkit-background-size: cover; 
     -moz-background-size: cover; 
     -o-background-size: cover; 
     background-size: cover;
-}
-.contact {
-	height: 360px;
-    text-align: center;
 }
 .contact h1 {
     padding-top: 60px;
