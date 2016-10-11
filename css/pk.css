@@ -535,11 +535,18 @@
 /* SECTION 8 ////////////////////////////////////////////////////////////////////////////////// SECTION 8 */
 .section8 {
     background: url(../img/footer.jpg);
-    width: 100%;
+    min-height: 360px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-	background-size: cover;
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
 }
 .contact {
 	height: 360px;
