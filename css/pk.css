@@ -545,15 +545,15 @@
     text-align: center;
 }
 .contact {
-    height: 360px;
     background-image: url(../img/footer.jpg);
-    background-repeat: no-repeat; 
-    background-position: center;
-    background-attachment: fixed;       
+    height: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
 }
 .contact h1 {
     padding-top: 60px;
