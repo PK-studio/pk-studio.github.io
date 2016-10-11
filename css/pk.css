@@ -546,8 +546,8 @@
 }
 .contact {
     background-image: url(../img/footer.jpg);
-    height: 100%;
-    background-position: 50% 50%;
+    height: 360px;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
