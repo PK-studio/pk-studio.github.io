@@ -535,19 +535,15 @@
 /* SECTION 8 ////////////////////////////////////////////////////////////////////////////////// SECTION 8 */
 .section8 {
     background: url(../img/footer.jpg);
-	-webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-background-repeat:no-repeat;
-background-size:contain;
-background-position:center left;
+
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: cover;
 }
 .contact {
 	height: 360px;
+    text-align: center;
 }
 .contact h1 {
     padding-top: 60px;
