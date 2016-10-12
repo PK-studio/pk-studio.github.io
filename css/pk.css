@@ -472,9 +472,8 @@
 .bg-quotation {
 	background-image: url(../img/bg2mini.jpg);
 	height: 100%;
+    width: auto;
     background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 	background-size: cover;
     -webkit-background-size: cover; 
     -moz-background-size: cover; 
