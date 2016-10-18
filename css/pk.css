@@ -406,14 +406,14 @@
 	position: absolute;
 	background: rgba(255, 255, 255, 0.9);
 	width: 100%;
-	height: 180px;
+	height: 100%;
 	top: 0;
 	left: 0;
     text-align: center;
 	opacity: 0;
     cursor: pointer;
 }
-.portfolio-item:hover  .portfolio-item-overlay {
+.portfolio-item:hover .portfolio-item-overlay {
 	display: block;
 	opacity: 1;
    -webkit-transition: opacity 0.5s ease 0s;
@@ -424,19 +424,18 @@
 }
 .portfolio-item:hover .portfolio-item-overlay span {
 	color: #FBA24E;
-	padding-top: 40px;
+	padding-top: 20px;
     -moz-animation: fade-span 0.8s ease 0s;
     -webkit-animation: fade-span 0.8s ease 0s;
     -o-animation: fade-span 0.8s ease 0s;
 	animation: fade-span 0.8s ease 0s;
 }
 @keyframes fade-span {
-	0% {transform: translateY(50px); opacity: 0;}
+	0% {transform: translateY(70px); opacity: 0;}
 	100% {transform: translateY(0px); opacity: 1;}
 }
 .portfolio-item:hover .portfolio-item-overlay h4 {
-	color: #FBA24E;
-	padding-top: 15px;
+    color: #FBA24E;
 	text-decoration: none;
     -moz-animation: fade-h 1.s ease 0s;
     -webkit-animation: fade-h 1s ease 0s;
@@ -444,28 +443,24 @@
 	animation: fade-h 1s ease 0s;
 }
 @keyframes fade-h {
-	0% {opacity: 0;}
-	35% {opacity: 0;}
-	100% {opacity: 1;}
+	0% {transform: translateY(50px); opacity: 0;}
+	100% {transform: translateY(0px); opacity: 1;}
 }
 .portfolio-item:hover .portfolio-item-overlay h4:after {
-	display: none;
+	margin: 17px auto;
 }
-/* (text below eye)
-
-.portfolio-item:hover .portfolio-item-overlay p {
-	color: #777777;
-	padding-top: 0px;
-    -moz-animation: fade-p 1.6s ease 0s;
-    -webkit-animation: fade-p 1.6s ease 0s;
-    -o-animation: fade-p 1.6s ease 0s;
-	animation: fade-p 1.6s ease 0s;
+.portfolio-item:hover .portfolio-item-overlay a p {
+    text-decoration: none;
+    -moz-animation: fade-p 1.1s ease 0s;
+    -webkit-animation: fade-p 1.1s ease 0s;
+    -o-animation: fade-p 1.1s ease 0s;
+	animation: fade-p 1.1s ease 0s;
 }
 @keyframes fade-p {
-	0% {opacity: 0;}
-	55% {opacity: 0;}
-	100% {opacity: 1;}
-}*/
+	0% {transform: translateY(-20px); opacity: 0;}
+	20% {transform: translateY(-20px); opacity: 0;}
+	100% {transform: translateY(0px); opacity: 1;}
+}
 
 
 /* SECTION 6 ////////////////////////////////////////////////////////////////////////////////// SECTION 6 */
