@@ -159,7 +159,7 @@ $(document).ready(function(){
 		  calc = 0;
 		}
 		
-		var calc2 = 475 + (scrollTop/2) ;
+		var calc2 = 520 + (scrollTop/2) ;
 		
 		// change text position
 		content.css({ 'margin-top': '' + calc2 + 'px'});
