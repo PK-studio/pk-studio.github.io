@@ -580,7 +580,7 @@
 }
 .contact {
     background-image: url(../img/footermini.jpg);
-    height: 260px;
+    height: 320px;
     width: auto;
     background-position: 50% 50%;
     background-size: cover;
@@ -591,7 +591,7 @@
 @media (min-width: 767px) {
     .contact {
         background-image: url(../img/footer.jpg);
-    	height: 320px;
+    	height: 360px;
     }
 } 
 .contact p {
@@ -607,7 +607,7 @@
     color: #fff;
 }
 .data {
-    width: 280px;
+    width: 320px;
     margin: auto;
     text-align: left;
 }
