@@ -556,6 +556,50 @@
 .providing-item > span {
 	font-size: 38px;
 }
+.providing-item:hover {
+	width: 130px;
+	height: 130px;
+	padding-top: 14px;
+	margin: 31px auto;
+    -webkit-transition: all 0.2s  ease-out 0s;
+    -moz-transition: all 0.2s ease-out 0s;
+    -ms-transition: all 0.2s ease-out 0s;
+    -o-transition: all 0.2s ease-out 0s;
+    transition: all 0.2s ease-out 0s;
+}
+/*colors for providing-item:hover*/
+.providing div:nth-child(1):hover div {
+    color: #2d2598;
+    border: solid 5px #2d2598;
+}
+.providing div:nth-child(2):hover div {
+    color: #3f91b8;
+    border: solid 5px #3f91b8;
+}
+.providing div:nth-child(3):hover div {
+    color: #982525;
+    border: solid 5px #982525;
+}
+.providing div:nth-child(4):hover div {
+    color: #986025;
+    border: solid 5px #986025;
+}
+.providing div:nth-child(5):hover div {
+    color: #8b9825;
+    border: solid 5px #8b9825;
+}
+.providing div:nth-child(6):hover div {
+    color: #259834;
+    border: solid 5px #259834;
+}
+.providing-item:hover > span {
+	font-size: 60px;
+    -webkit-transition: all 0.2s  ease-out 0s;
+    -moz-transition: all 0.2s ease-out 0s;
+    -ms-transition: all 0.2s ease-out 0s;
+    -o-transition: all 0.2s ease-out 0s;
+    transition: all 0.2s ease-out 0s;
+}
 .providing-item > p {
 	font-size: 20px;
 	margin-top: 2px;
@@ -606,6 +650,11 @@
     font-size: 20px;
     color: #fff;
 }
+.contact > [class^="fontello-"]:before, [class*=" fontello-"]:before {
+font-size: 115%;
+
+}
+
 .data {
     width: 320px;
     margin: auto;

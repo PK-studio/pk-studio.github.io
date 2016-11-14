@@ -45,7 +45,7 @@
   margin-left: .2em;
  
   /* you can be more comfortable with increased icons size */
-  /* font-size: 120%; */
+  /*font-size: 120%; */
  
   /* Font smoothing. That was taken from TWBS */
   -webkit-font-smoothing: antialiased;
@@ -54,7 +54,7 @@
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
- 
+
 .fontello-camera-outline:before { content: '\e800'; } /* '' */
 .fontello-cog-alt:before { content: '\e801'; } /* '' */
 .fontello-edit:before { content: '\e802'; } /* '' */
@@ -85,5 +85,8 @@
 .fontello-zoom-out-2:before { content: '\e81b'; } /* '' */
 .fontello-zoom-in-3:before { content: '\e81c'; } /* '' */
 .fontello-zoom-out-4:before { content: '\e81d'; } /* '' */
+.fontello-email:before { content: '\e81e'; } /* '' */
+.fontello-phone-circled:before { content: '\e81f'; } /* '' */
 .fontello-zoom-in-2:before { content: '\f07e'; } /* '' */
 .fontello-zoom-out-3:before { content: '\f07f'; } /* '' */
+.fontello-skype-1:before { content: '\e820'; } /* '' */
