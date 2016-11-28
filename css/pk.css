@@ -385,7 +385,11 @@
     font-size: 18px;
     line-height: 20px;
 }
-
+@media (min-width: 768px){
+    .skillbar strong{
+        top:2px;
+    }
+}
 
 /* SECTION 5 ////////////////////////////////////////////////////////////////////////////////// SECTION 5 */
 .portfolio {
@@ -433,64 +437,58 @@
 }
 .portfolio-item-overlay {
 	position: absolute;
-	background: rgba(255, 255, 255, 0.9);
+	background: rgba(255, 255, 255, .9);
 	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
+	height: 100px;
+	top: 160px;
+    left:0;
     text-align: center;
 	opacity: 0;
     cursor: pointer;
 }
+.imgcase{
+    overflow: hidden;
+    height: 160px;
+    width: 200px;
+    margin: auto;
+}
+.portfolio-item:hover .portfolio-img{
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    -ms-transition: all .8s ease-in-out;
+    -webkit-transform: scale(1.3); 
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+}
 .portfolio-item:hover .portfolio-item-overlay {
 	display: block;
 	opacity: 1;
-   -webkit-transition: opacity 0.5s ease 0s;
-   -moz-transition: opacity 0.5s ease 0s;
-   -ms-transition: opacity 0.5s ease 0s;
-   -o-transition: opacity 0.5s ease 0s;
-   transition: opacity 0.5s ease 0s;
+   -webkit-transition: opacity 0.3s ease 0s;
+   -moz-transition: opacity 0.3s ease 0s;
+   -ms-transition: opacity 0.3s ease 0s;
+   -o-transition: opacity 0.3s ease 0s;
+   transition: opacity 0.3s ease 0s;
 }
-.portfolio-item:hover .portfolio-item-overlay span {
-	color: #FBA24E;
-	padding-top: 20px;
-    -moz-animation: fade-span 0.8s ease 0s;
-    -webkit-animation: fade-span 0.8s ease 0s;
-    -o-animation: fade-span 0.8s ease 0s;
-	animation: fade-span 0.8s ease 0s;
-}
-@keyframes fade-span {
-	0% {transform: translateY(70px); opacity: 0;}
-	100% {transform: translateY(0px); opacity: 1;}
-}
-.portfolio-item:hover .portfolio-item-overlay h4 {
-    color: #FBA24E;
-	text-decoration: none;
-    -moz-animation: fade-h 1.s ease 0s;
-    -webkit-animation: fade-h 1s ease 0s;
-    -o-animation: fade-h 1s ease 0s;
-	animation: fade-h 1s ease 0s;
-}
-@keyframes fade-h {
-	0% {transform: translateY(50px); opacity: 0;}
-	100% {transform: translateY(0px); opacity: 1;}
-}
-.portfolio-item:hover .portfolio-item-overlay h4:after {
-	margin: 17px auto;
+.portfolio-item:hover .portfolio-item-overlay a {
+    text-decoration: none;
 }
 .portfolio-item:hover .portfolio-item-overlay a p {
+    font-size: 20px;
+    color: #877a38;
+    padding-top: 30px;
     text-decoration: none;
-    -moz-animation: fade-p 1.1s ease 0s;
-    -webkit-animation: fade-p 1.1s ease 0s;
-    -o-animation: fade-p 1.1s ease 0s;
-	animation: fade-p 1.1s ease 0s;
+    -moz-animation: fade-p 0.6s ease 0s;
+    -webkit-animation: fade-p 0.6s ease 0s;
+    -o-animation: fade-p 0.6s ease 0s;
+	animation: fade-p 0.6s ease 0s;
 }
 @keyframes fade-p {
-	0% {transform: translateY(-20px); opacity: 0;}
-	20% {transform: translateY(-20px); opacity: 0;}
+	0% {transform: translateY(+20px); opacity: 0;}
+	30% {transform: translateY(+20px); opacity: 0;}
 	100% {transform: translateY(0px); opacity: 1;}
 }
-
 
 /* SECTION 6 ////////////////////////////////////////////////////////////////////////////////// SECTION 6 */
 .bg-quotation {

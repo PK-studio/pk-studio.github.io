@@ -1,3 +1,6 @@
+// REFRESH ON REZSIZE
+$(window).resize(function(){location.reload();});
+
 // SMOUTH SCROLL PAGE
 $(function() {  
 
@@ -177,7 +180,7 @@ $(document).ready(function(){
 });
 
 
-// 'TIMELINE' - CHANGE ICON ON
+// 'TIMELINE' - CHANGE ICON
 $(document).ready(function(){
 	/*job1*/
 	$('#job1').on('shown.bs.collapse', function () {
@@ -237,7 +240,7 @@ $(function() {
             var origWidth = $el.width();
             $el.width(0);
             $queue.queue(function(next) {
-                $el.animate({width: origWidth}, 800, next);
+                $el.animate({width: origWidth}, 600, next);
             });
         });
     }
@@ -251,7 +254,6 @@ $(function() {
             $(document).unbind('scroll');
         }
     });
-	
 });
 
 //Parallax 2 - change color background
@@ -266,7 +268,7 @@ $(document).ready(function(){
 		var scrollTop = $(this).scrollTop();
 		var position = $('#section6').offset().top ;
 		//var calc = 0.45 + ((3000-scrollTop)/1950) ;
-		var calc = 0.65 - ((scrollTop - position + 550)/1200) ;
+		var calc = 0.65 - ((scrollTop - position + 350)/600) ;
 		
 		if ( calc > '1' ) {
 		  calc = 1;
@@ -280,3 +282,22 @@ $(document).ready(function(){
 		header.css({ 'background': newBackground });
 	});
 });
+
+// //Change Quote
+$(document).ready(function(){
+	var quotes = [
+		'<div><p>“Design is not just what it looks like and feels like. Design is how it works.”</p><p><small>Steve Jobs</small></p></div>',
+		'<div><p>“Creat with the heart, build with the mind.”</p><p><small>Criss Jami</small></p></div>',
+		'<div><p>“Always deliver more than expected.”</p><p><small>Larry Page</small></p></div>'
+	];
+	var counter=0
+	$('blockquote').html(quotes).hide()
+	function change(){
+			$('blockquote').html(quotes[counter]).fadeIn(500).delay(4000).fadeOut(500,function(){
+				counter++
+				if(counter>=quotes.length){counter=0}
+				change()
+			})
+	}
+	change()
+})
