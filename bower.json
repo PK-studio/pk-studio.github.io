@@ -1,0 +1,20 @@
+{
+  "name": "pk_published",
+  "description": "portfolio",
+  "main": "index.js",
+  "authors": [
+    "PK-studio <vb.karwowski@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/PK-studio/pk-studio.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.1.4"
+  }
+}

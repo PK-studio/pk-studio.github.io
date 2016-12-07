@@ -1,0 +1,19 @@
+{
+  "name": "pk_published",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PK-studio/pk-studio.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PK-studio/pk-studio.github.io/issues"
+  },
+  "homepage": "https://github.com/PK-studio/pk-studio.github.io#readme"
+}

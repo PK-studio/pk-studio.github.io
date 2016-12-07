@@ -1,4 +1,4 @@
-// REFRESH ON REZSIZE
+// REFRESH PAGE ON REZSIZE
 $(window).resize(function(){location.reload();});
 
 // SMOUTH SCROLL PAGE
@@ -221,6 +221,12 @@ $(document).ready(function(){
 		}
 	});	
 });*/
+
+//Animation handler
+//--------------------
+//1-Cache reference to animation items
+//1-Scroll position detection
+//2-
 
 //Initiat elements animation - WOW JS - (class="wow fadeInDown")
 jQuery(function($){
