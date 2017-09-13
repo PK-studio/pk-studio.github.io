@@ -4,7 +4,7 @@ $(window).resize(function(){location.reload();});
 // SMOUTH SCROLL PAGE
 $(function() {  
 
-    jQuery.scrollSpeed(120,800);
+    jQuery.scrollSpeed(100,800);
 
 });
 
