@@ -286,6 +286,9 @@
     width: 70%;
 	text-align: left;
 }
+.timeline-item.pointer:hover .timeline-head-content{
+    background-color: transparent;
+}
 .timeline-head-content h3 {
     color: #363636;
     font-weight: normal;
