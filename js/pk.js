@@ -171,7 +171,6 @@ $(document).ready(function(){
 		if(window.innerWidth > 767){
 			var newColor = 'rgba(255,255,255,' + calc + ')';
 			var newBackground = background.replace(pattern, newColor);
-			console.log(newBackground); 
 			header.css({ 'background': newBackground });
 		}
 		// change color - quick way
@@ -284,7 +283,6 @@ $(document).ready(function(){
 
 		var newColor = 'rgba(0,0,0,' + calc + ')';
 		var newBackground = background.replace(pattern, newColor);
-		console.log(newBackground); 
 		header.css({ 'background': newBackground });
 	});
 });
